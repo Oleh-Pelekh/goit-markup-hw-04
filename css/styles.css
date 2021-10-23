@@ -189,7 +189,6 @@ img {
 
 .hero {
   background: #2f303a;
-
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -528,8 +527,8 @@ img {
 }
 
 /*---------------sprites-------------*/
-.icon-mail,
-.icon-smartphone {
+.icon-email,
+.icon-phone {
   fill: currentColor;
   margin-right: 10px;
 }
