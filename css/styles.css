@@ -527,8 +527,20 @@ img {
 }
 
 /*---------------sprites-------------*/
-.icon-email,
-.icon-phone {
+.icon-mail,
+.icon-smartphone {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.section-icons {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
