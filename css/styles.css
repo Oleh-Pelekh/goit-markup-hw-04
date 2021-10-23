@@ -56,7 +56,8 @@ img {
 .projects,
 .site-nav,
 .contacts,
-.footer-list {
+.footer-list,
+.logos {
   list-style: none;
 }
 
@@ -92,7 +93,7 @@ img {
 }
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-black {
@@ -169,8 +170,8 @@ img {
 
 .header-contacts {
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 34px;
+  padding-bottom: 34px;
 }
 
 /*---------------hero---------------*/
@@ -188,8 +189,16 @@ img {
 }
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   background: #2f303a;
-  background-image: url(../images/hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -363,8 +372,6 @@ img {
   border: none;
   color: var(--primary-text-color);
   background: #f5f4fa;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -394,7 +401,9 @@ img {
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.btn-current:hover,
+.btn-current:focus {
   color: var(--accent-color);
   background: var(--hover-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -413,6 +422,12 @@ img {
 }
 
 /* projects */
+
+.project-content:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .project {
   font-size: 18px;
   line-height: 2;
@@ -543,4 +558,29 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.company-icons {
+  flex-basis: calc((100% - 6 * 30px) / 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.company-svg {
+  fill: #afb1b8;
+}
+
+.company-svg:hover {
+  fill: #2196f3;
+}
+
+.logos {
+  display: flex;
 }
