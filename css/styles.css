@@ -583,6 +583,7 @@ img {
 
 .logos {
   display: flex;
+  cursor: pointer;
 }
 
 .company-icons:hover {
