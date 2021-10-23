@@ -584,3 +584,7 @@ img {
 .logos {
   display: flex;
 }
+
+.company-icons:hover {
+  border: 1px solid #2196f3;
+}
