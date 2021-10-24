@@ -681,6 +681,7 @@ img {
 }
 
 .join-rights {
+  display: block;
   margin-left: 70px;
 }
 
@@ -691,6 +692,7 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -715,5 +717,4 @@ img {
 .item-social {
   width: 44px;
   height: 44px;
-  display: flex;
 }
