@@ -486,6 +486,8 @@ img {
 
 .page-footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* address */
@@ -529,11 +531,6 @@ img {
 
 .contacts-footer {
   margin-bottom: 9px;
-}
-
-.page-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .contacts .adress {
@@ -681,7 +678,6 @@ img {
 }
 
 .join-rights {
-  display: block;
   margin-left: 70px;
 }
 
