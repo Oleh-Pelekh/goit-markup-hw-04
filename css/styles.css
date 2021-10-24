@@ -671,6 +671,16 @@ img {
   margin-bottom: 20px;
 }
 
-.right {
+.footer-info {
   display: flex;
+  align-items: baseline;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
+.join-rights {
+  margin-left: 70px;
 }
