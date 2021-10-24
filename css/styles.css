@@ -606,6 +606,8 @@ img {
 
 .team-social {
   display: flex;
+  align-items: center;
+  margin-top: 16px;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -642,4 +644,22 @@ img {
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   fill: var(--accent-color);
+}
+
+/* footer socials */
+
+.join {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.right {
+  display: flex;
 }
