@@ -540,11 +540,17 @@ img {
 }
 
 .adress-info {
+  margin-bottom: 9px;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.17px;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.adress-info:hover,
+.adress-info:focus {
+  color: var(--hover-color);
 }
 
 /*---------------sprites-styles-------------*/
