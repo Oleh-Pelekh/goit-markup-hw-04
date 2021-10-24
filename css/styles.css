@@ -59,7 +59,8 @@ img {
 .footer-list,
 .clients-item,
 .social-item,
-.footer-adress {
+.footer-adress,
+.item-social {
   list-style: none;
 }
 
@@ -659,7 +660,6 @@ img {
 /* footer socials */
 
 .join {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -706,4 +706,14 @@ img {
 
 .icon-social {
   fill: var(--accent-color);
+}
+
+.item-social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.item-social {
+  width: 44px;
+  height: 44px;
+  display: flex;
 }
